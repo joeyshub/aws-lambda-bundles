@@ -1,0 +1,18 @@
+{
+  "name": "00_devops-dailybackup-ebs-volumes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Yuming Peng <yuming.peng@bioclinica.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.379.0",
+    "dateformat": "^3.0.3"
+  }
+}
