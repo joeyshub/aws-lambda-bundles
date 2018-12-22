@@ -122,7 +122,10 @@ exports.handler = (event, context, callback) => {
     });
   }
 
-
+  /**
+   * Permanently remove the snapshot
+   * @param {*} snapshotid 
+   */
   function deleteSnapshots(snapshotid){
     var params = {
       SnapshotId: snapshotid
